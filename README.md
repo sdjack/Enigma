@@ -1,10 +1,11 @@
-#ENIGMA
-####[ EXTENSIBLE NODE INTERCONNECTION GATEWEAY MANAGEMENT ARCHITECTURE ]
-##Node Server Installation
-####DESCRIPTION
+# ENIGMA
+#### [ EXTENSIBLE NODE INTERCONNECTION GATEWEAY MANAGEMENT ARCHITECTURE ]
+## Node Server Installation
+================
+#### DESCRIPTION
 This package contains the full ENIGMA installation.
 ___
-####USAGE
+#### USAGE
 From the (linux) server terminal.
 *SSH PUBLIC KEY*
 ```
@@ -16,5 +17,5 @@ $ ssh-add -l
 $ cat ~/.ssh/id_rsa.pub
 ```
 ___
-###TO DO
+### TO DO
 - [ ] Create automatic deployment script for Azure linux vm.
