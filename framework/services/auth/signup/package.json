@@ -1,0 +1,16 @@
+{
+  "name": "enigma_service_auth_signup",
+  "version": "1.0.0",
+  "description": "auth service used to create new user accounts",
+  "main": "constructor.js",
+  "author": "Steven Jackson",
+  "license": "GPL-3.0",
+  "dependencies": {},
+  "enigma": {
+    "enabled": "true",
+    "displayname": "Signup",
+    "classname": "signup",
+    "servicegroup": "auth",
+    "archetype": "service"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "enigma_controller_socket",
+  "version": "1.0.0",
+  "description": "Socket (Socket.IO) controller module for the ENIGMA Framework",
+  "main": "constructor.js",
+  "author": "Steven Jackson",
+  "license": "GPL-3.0",
+  "dependencies": {},
+  "enigma": {
+    "enabled": "true",
+    "displayname": "Socket",
+    "classname": "socket",
+    "archetype": "controller"
+  }
+}

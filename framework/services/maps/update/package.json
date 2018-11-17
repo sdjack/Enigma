@@ -1,0 +1,16 @@
+{
+  "name": "enigma_service_maps_update",
+  "version": "1.0.0",
+  "description": "Mapping data update service",
+  "main": "constructor.js",
+  "author": "Steven Jackson",
+  "license": "GPL-3.0",
+  "dependencies": {},
+  "enigma": {
+    "enabled": "true",
+    "classname": "update",
+    "displayname": "Update",
+    "archetype": "service",
+    "servicegroup": "maps"
+  }
+}

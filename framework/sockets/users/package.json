@@ -1,0 +1,15 @@
+{
+  "name": "enigma_socket_users",
+  "version": "1.0.0",
+  "description": "Provides users based interactions via websocket",
+  "main": "constructor.js",
+  "author": "Steven Jackson",
+  "license": "GPL-3.0",
+  "dependencies": {},
+  "enigma": {
+    "enabled": "true",
+    "classname": "users",
+    "displayname": "Read-only Data",
+    "archetype": "sockets"
+  }
+}

@@ -1,0 +1,31 @@
+{% extends 'layout.html' %}
+
+{% block title %}Home Page{% endblock %}
+
+{% block body %}
+<table>
+	<tr>
+		<td><strong>{{ message|'' }}</strong></td>
+	</tr>
+</table>
+<br/>
+<br/>
+{% if rowData %}
+<table>
+	<tr>
+		<td colspan="7"><strong>RECORDS FOUND</strong></td>
+	</tr>
+{% for row in rowData %}
+	<tr>
+		<td><strong>#{{ row.ID|'' }}</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+		<td><strong>Name:</strong>&nbsp;{{ row.UA_FIRST_NAME|'' }}&nbsp;{{ row.UA_LAST_NAME|'' }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+		<td><strong>Email:</strong>&nbsp;{{ row.UA_EMAIL|'' }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+		<td><strong>Username:</strong>&nbsp;{{ row.UA_USERNAME|'' }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+		<td><strong>Password:</strong>&nbsp;{{ row.UA_PASSWORD|'' }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+		<td><strong>Token:</strong>&nbsp;{{ row.UA_TOKEN|'' }}</td>
+	</tr>
+{% endfor %}
+</table>
+{% endif %}
+
+{% endblock %}

@@ -1,0 +1,16 @@
+{
+  "name": "enigma_service_private_test",
+  "version": "1.0.0",
+  "description": "Internal service used to capture test data",
+  "main": "constructor.js",
+  "author": "Steven Jackson",
+  "license": "GPL-3.0",
+  "dependencies": {},
+  "enigma": {
+    "enabled": "true",
+    "displayname": "Test",
+    "classname": "test",
+    "servicegroup": "private",
+    "archetype": "service"
+  }
+}

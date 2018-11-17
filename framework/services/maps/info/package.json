@@ -1,0 +1,16 @@
+{
+  "name": "enigma_service_maps_info",
+  "version": "1.0.0",
+  "description": "Mapping data service",
+  "main": "constructor.js",
+  "author": "Steven Jackson",
+  "license": "GPL-3.0",
+  "dependencies": {},
+  "enigma": {
+    "enabled": "true",
+    "classname": "info",
+    "displayname": "Read-only Data",
+    "archetype": "service",
+    "servicegroup": "maps"
+  }
+}

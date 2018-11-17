@@ -1,0 +1,16 @@
+{
+  "name": "enigma_service_feed",
+  "version": "1.0.0",
+  "description": "Profile data feed service",
+  "main": "constructor.js",
+  "author": "Steven Jackson",
+  "license": "GPL-3.0",
+  "dependencies": {},
+  "enigma": {
+    "enabled": "true",
+    "classname": "info",
+    "displayname": "Read-only Data",
+    "archetype": "service",
+    "servicegroup": "users"
+  }
+}

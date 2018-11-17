@@ -1,0 +1,15 @@
+{
+  "name": "enigma_controller_cypher",
+  "version": "1.0.0",
+  "description": "Encryption utilities for use by all services and controllers",
+  "main": "constructor.js",
+  "author": "Steven Jackson",
+  "license": "GPL-3.0",
+  "dependencies": {},
+  "enigma": {
+    "enabled": "true",
+    "classname": "cypher",
+    "displayname": "Cypher",
+    "archetype": "controller"
+  }
+}

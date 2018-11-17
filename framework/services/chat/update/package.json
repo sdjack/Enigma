@@ -1,0 +1,16 @@
+{
+  "name": "enigma_service_chat_update",
+  "version": "1.0.0",
+  "description": "Chat data update service",
+  "main": "constructor.js",
+  "author": "Steven Jackson",
+  "license": "GPL-3.0",
+  "dependencies": {},
+  "enigma": {
+    "enabled": "true",
+    "classname": "update",
+    "displayname": "Update",
+    "archetype": "service",
+    "servicegroup": "chat"
+  }
+}
